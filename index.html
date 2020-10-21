@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>MUNCAK</title>
 </head>
@@ -49,13 +50,13 @@
         </div>
     </div>
     <div class="banner">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-delay="50" data-aos-duration="3000">
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner-inner">
                         <h1>Let's get the top <br>of Mountain</h1>
                         <p>Here is the hiking information you need to decide <br> if it is right for you, and to make it more interesting, <br> enjoyable, and safe.</p>
-                        <a href="" class="btn">Get Started </a>
+                        <a href="" class="btn" data-aos="fade-down" data-aos-delay="50" data-aos-duration="3000">Get Started </a>
                     </div>
                 </div>
             </div>
@@ -66,7 +67,7 @@
 <section class="banner-head">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="fade-left" data-aos-delay="50" data-aos-duration="3000">
                 <div class="title">
                     <h2>We envision a world where everyone <br> has permanent access to a hiking trail</h2>
                 </div>
@@ -75,7 +76,7 @@
 
         </div>
         <div class="row">
-            <div class="row">
+            <div class="off">
                 <div class="col-md-3  offset-md-4">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
@@ -90,20 +91,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 offset-md-6">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
+            <div class="off">
+                <div class="col-md-5 offset-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
 
-                        <h6 class="card-subtitle mb-2 text-muted">Volunteer</h6>
-                        <p class="card-text">Trails don't maintain themselves. Individuals of any age and experience level can become trail stewards. Give back to the trails you love, meet new people, and enjoy the experience!</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Volunteer</h6>
+                            <p class="card-text">Trails don't maintain themselves. Individuals of any age and experience level can become trail stewards. Give back to the trails you love, meet new people, and enjoy the experience!</p>
 
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
         <div class="row">
-            <div class="">
+            <div class="off">
                 <div class="col-md-3  offset-md-4">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
@@ -312,6 +315,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
